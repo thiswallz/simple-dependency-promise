@@ -1,0 +1,30 @@
+{
+  "name": "simple-dependency-promise",
+  "version": "0.0.1",
+  "description": "A basic module for sequencing and executing functions and promises with their dependencies.",
+  "main": "index.js",
+  "keywords": [
+    "orchestra",
+    "promises",
+    "nodejs"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiswallz/simple-dependency-promise.git"
+  },
+  "author": "Mauricio Joost Wolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiswallz/simple-dependency-promise/issues"
+  },
+  "homepage": "https://github.com/thiswallz/simple-dependency-promise#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^5.0.0"
+  }
+}
