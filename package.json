@@ -1,6 +1,6 @@
 {
   "name": "simple-dependency-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic module for sequencing and executing functions and promises with their dependencies.",
   "main": "index.js",
   "keywords": [

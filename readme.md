@@ -16,7 +16,7 @@ npm install simple-dependency-promise --save
 ## Javascript Usage
 
 ```js
-    const RefPromise = require("../");
+    const RefPromise = require("simple-dependency-promise");
 
     const a = new RefPromise({
       key: "a", 
@@ -42,7 +42,7 @@ npm install simple-dependency-promise --save
 ## Example 1
 
 ```js
-    const RefPromise = require("../");
+    const RefPromise = require("simple-dependency-promise");
 
     const a = new RefPromise({
       key: "a", 
