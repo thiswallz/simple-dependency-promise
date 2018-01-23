@@ -34,7 +34,6 @@ class RefPromise {
         if(this._resolved.find(e=>e.key===connection.key)){
           return;
         }
-        console.log(connection.key)
         if(this._seen.find(e=>e.key===connection.key)){
           throw `Circular reference detected (${connection.key})`;
         }
