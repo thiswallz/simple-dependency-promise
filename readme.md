@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thiswallz/simple-dependency-promise.svg?branch=master)](https://travis-ci.org/thiswallz/orchestrator)
+[![Build Status](https://travis-ci.org/thiswallz/simple-dependency-promise.svg?branch=master)](https://travis-ci.org/thiswallz/simple-dependency-promise)
 [![NPM version](https://img.shields.io/npm/v/simple-dependency-promise.svg)](https://www.npmjs.com/package/simple-dependency-promise)
 
 # Simple dependency for promises, functions or simple processes
