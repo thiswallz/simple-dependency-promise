@@ -77,15 +77,15 @@ npm install simple-dependency-promise --save
     a.inject(b);
     a.inject(c);
     b.inject(c);
+
     a.start().then(res=>{
-      console.log(res.a)
-      //{'success', true}
-      console.log(res.a.b)
-      //{'ip', '127.0.0.1'}
-      console.log(res.a.c.data)
-      //{'userName', 'Admin'}
+      console.log(res.a.success)
+      //true
+      console.log(res.a.b.ip)
+      //127.0.0.1
+      console.log(res.a.c.data.userName)
+      //Admin
     });
- 
 
     
 ```
